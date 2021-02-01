@@ -42,13 +42,18 @@ brew 'yarn'
 # Apps
 cask '1password'
 cask 'alfred'
+cask 'boxy-suite'
 cask 'dbngin'
 cask 'firefox'
 cask 'github'
 cask 'google-chrome'
+cask 'hyper'
 cask 'imageoptim'
 cask 'insomnia'
+cask 'notion'
+cask 'openvpn-connect'
 cask 'slack'
+cask 'spotify'
 cask 'tableplus'
 cask 'telegram-desktop'
 cask 'the-unarchiver'
@@ -57,8 +62,8 @@ cask 'tinkerwell'
 cask 'transmission'
 cask 'visual-studio-code'
 cask 'vlc'
-cask 'notion'
-cask 'boxy-suite'
+cask 'whatsapp'
+cask 'zoom'
 
 # Fonts
 cask 'font-lato'
@@ -72,3 +77,4 @@ cask 'font-source-serif-pro'
 # Mac App Store
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
+mas 'Ghostery Lite', id: 1436953057  
