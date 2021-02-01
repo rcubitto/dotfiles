@@ -5,11 +5,9 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
 # Binaries
-# brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
-# brew 'gh'
 brew 'git'
 brew 'gnupg2'
 brew 'grep'
@@ -18,8 +16,6 @@ brew 'hub'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-# brew 'stripe/stripe-cli/stripe'
-# brew 'svn'
 brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
 brew 'zlib' # Needed for Memcached
@@ -32,9 +28,7 @@ brew 'zlib' # Needed for Memcached
 # brew 'gifsicle'
 
 # Development
-# brew 'php'
 brew 'php@7.4'
-# brew 'php@7.3'
 brew 'composer'
 brew 'imagemagick'
 brew 'libmemcached'
@@ -47,43 +41,24 @@ brew 'yarn'
 
 # Apps
 cask '1password'
-# cask '1password-cli'
-# cask 'aerial'
 cask 'alfred'
-# cask 'caffeine'
 cask 'dbngin'
-# cask 'discord'
-# cask 'docker'
-# cask 'figma'
 cask 'firefox'
 cask 'github'
-# cask 'google-backup-and-sync'
 cask 'google-chrome'
-# cask 'gpg-suite'
 cask 'imageoptim'
 cask 'insomnia'
-# cask 'phpstorm'
-# cask 'ray'
-# cask 'screenflow'
-# cask 'signal'
-# cask 'skype'
 cask 'slack'
-# cask 'steam'
-# cask 'sublime-text'
 cask 'tableplus'
 cask 'telegram-desktop'
 cask 'the-unarchiver'
 cask 'there'
 cask 'tinkerwell'
 cask 'transmission'
-# cask 'transmit'
 cask 'visual-studio-code'
 cask 'vlc'
-
-# Quicklook
-# cask 'qlmarkdown'
-# cask 'quicklook-json'
-# cask 'quicklook-csv'
+cask 'notion'
+cask 'boxy-suite'
 
 # Fonts
 cask 'font-lato'
