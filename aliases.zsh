@@ -11,7 +11,7 @@ alias a="php artisan"
 alias at="a tinker"
 alias composer="php -d memory_limit=-1 /usr/local/bin/composer"
 alias p="vendor/bin/phpunit --verbose"
-alasi pf="p --filter"
+alias pf="p --filter"
 
 # Git
 alias gs="git status"
