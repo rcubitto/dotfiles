@@ -29,16 +29,18 @@ If you did all of the above you may now follow these install instructions to set
 
 1. Update macOS to the latest version
 2. System preferences -> Keyboard -> Modifier Keys... -> Map "Caps Lock" to "Esc"
-2. Log in using your Apple ID in the App Store (Share password via iPhone)
-2. Install Xcode from the App Store, open it and accept the license agreement
-3. Install macOS Command Line Tools by running `xcode-select --install`
-4. [Generate a new public and private SSH key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and add them to Github
-5. Clone this repo to `~/.dotfiles`
-6. Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh#getting-started)
-6. Run `fresh.sh` to start the installation
-7. After mackup is synced with your cloud storage, restore preferences by running `mackup restore`
-8. Update your hostname `sudo scutil --set HostName {hostname}`
-8. Restart your computer to finalize the process
+3. Log in using your Apple ID in the App Store (Share password via iPhone)
+4. Install Xcode from the App Store, open it and accept the license agreement
+5. Install macOS Command Line Tools by running `xcode-select --install`
+6. [Generate a new public and private SSH key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and add them to Github
+7. Clone this repo to `~/.dotfiles`
+8. Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh#getting-started)
+9. Run `fresh.sh` to start the installation
+10. After mackup is synced with your cloud storage, restore preferences by running `mackup restore`
+11. Update your hostname `sudo scutil --set HostName {hostname}`
+12. Restart your computer to finalize the process
+13. Sync Alfred's config file -> Advanced -> Set preferences folder... -> iCloud
+14. Install all VSCode extensions. See `VSCODE.md`
 
 Your Mac is now ready to use!
 
