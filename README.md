@@ -37,6 +37,7 @@ If you did all of the above you may now follow these install instructions to set
 6. Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh#getting-started)
 6. Run `fresh.sh` to start the installation
 7. After mackup is synced with your cloud storage, restore preferences by running `mackup restore`
+8. Update your hostname `sudo scutil --set HostName {hostname}`
 8. Restart your computer to finalize the process
 
 Your Mac is now ready to use!

@@ -16,6 +16,7 @@ brew 'hub'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
+brew 'svn'
 brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
 brew 'zlib' # Needed for Memcached
@@ -73,8 +74,7 @@ cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
+cask 'font-jetbrains-mono'
 
 # Mac App Store
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
-mas 'Ghostery Lite', id: 1436953057  
+mas 'Ghostery Lite', id: 1436953057
