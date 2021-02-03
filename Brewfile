@@ -7,6 +7,8 @@ tap 'homebrew/bundle'
 # Binaries
 brew 'bash' # Latest Bash version
 brew 'coreutils' # Those that come with macOS are outdated
+brew 'zsh-syntax-highlighting'
+brew 'zsh-autosuggestions'
 brew 'ffmpeg'
 brew 'git'
 brew 'gnupg2'
