@@ -9,7 +9,6 @@ Extensions are not backed up by Mackup. Here's the list...
 * gitignore
 * GitLens
 * Increment Selection
-* Monkey Patch
 * Permute Lines
 * PHP Intelephense
 * PHP Namespace Resolver

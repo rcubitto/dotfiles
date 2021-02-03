@@ -41,6 +41,7 @@ If you did all of the above you may now follow these install instructions to set
 12. Restart your computer to finalize the process
 13. Sync Alfred's config file -> Advanced -> Set preferences folder... -> iCloud
 14. Install all VSCode extensions. See `VSCODE.md`
+15. Setup Safari to switch tabs like Chrome [How to](https://superuser.com/questions/109661/safari-tabs-like-firefox-chrome)
 
 Your Mac is now ready to use!
 
