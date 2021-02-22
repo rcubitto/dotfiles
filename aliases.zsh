@@ -7,6 +7,7 @@ alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias k="cd $HOME/Sites/kickfurther"
 
 # PHP/Laravel
+alias c="composer"
 alias a="php artisan"
 alias at="a tinker"
 alias composer="php -d memory_limit=-1 /usr/local/bin/composer"
@@ -27,6 +28,7 @@ alias gpod="git push origin dev"
 alias gpos="git push origin staging"
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias wip="git add --all; git commit -m 'wip'"
+alias amend="git commit --amend"
 
 slugify_dir () {
 	cd $1
