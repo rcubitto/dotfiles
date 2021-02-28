@@ -39,7 +39,6 @@ brew 'memcached'
 brew 'mysql@5.7'
 brew 'nginx'
 brew 'node'
-brew 'redis'
 brew 'yarn'
 
 # Apps
